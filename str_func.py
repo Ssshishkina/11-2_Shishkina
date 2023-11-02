@@ -1,4 +1,5 @@
 def str_upper(data:str):
-    data_up = data.capitalize()
+    """Делает все буквы слова заглавными"""
+    data_up = data.upper()
     return data_up
 
